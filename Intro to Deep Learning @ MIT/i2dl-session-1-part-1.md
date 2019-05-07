@@ -24,7 +24,7 @@
 * ReLU activation function: `tf.nn.relu(z)` - popular, easy to compute, non-linear
 * Activation functions: introduce non-linearities into the network, linear decision boundaries are not adequate for complex decisions
 
-##Building NN with perceptrons
+## Building NN with perceptrons
 * NN contain multiple perceptrons
 * Single Layer NN contain a single hidden layer between the input and the output. Two weight matrices needed: input -> hidden layer and hidden layer -> output
 * Example SLNN in TF
@@ -45,7 +45,7 @@ model = Model(inputs, outputs)
 * Binary Cross Entropy Loss computes the loss between the 0-1 output and the actual output; good for models that output a probability between 0 and 1
 * Mean Squared Error Loss can be used with regression models that output continious real numbers.
 
-##Training NN
+## Training NN
 * Loss optimization: finding the suitable weights for the NN such that the empirical loss has the smallest value.
 * Gradient descent is used for the loss optimization calculations.
 1. Initialize weights randomly
@@ -69,7 +69,7 @@ model = Model(inputs, outputs)
 4. Adam: `tf.train.AdamOptimizer`
 5. RMSProp: `tf.train.RMSPropOptimizer`
 
-##Neural Networks in Practice: Mini-batches
+## Neural Networks in Practice: Mini-batches
 * Stochastic Gradient Descent:
 1. Initialize weights randomly
 2. Loop until convergence:
