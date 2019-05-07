@@ -79,7 +79,7 @@ model = Model(inputs, outputs)
 3. Return weights
 * Smoother convergence, quicker to compute due to parallelization
 
-##NN in Practice: Overfitting
+## NN in Practice: Overfitting
 * Underfitting: Model does not have capacity to fully learn the data.
 * Overfitting: Model is too complex and does not generalize well.
 * Regularization: technique that contrains the optimization problem to discourage complex models; improves the generalization of our model on unseen data
